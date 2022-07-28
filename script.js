@@ -41,7 +41,7 @@ function createCard(element) {
   let tagH2 = document.createElement("h2");
   let tagImg = document.createElement("img");
   tagH2.innerText = element.nome;
-    tagImg.src = element.image;
+    tagImg.src = element.imagem;
     if(element.stackDeEstudo == "front-end") {
       tagDiv.classList.add("dev__frontend")
     } else if(element.stackDeEstudo == "back-end") {
